@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sotam — 3D Designer &amp; Roblox Developer</title>
+  <meta name="description" content="Sotam — low poly 3D designer and Roblox developer. Systems, 3D assets, map design and bug fixing. Open for commissions.">
+  <meta property="og:title" content="Sotam — 3D Designer & Roblox Developer">
+  <meta property="og:description" content="Low poly 3D assets and Roblox systems. Open for commissions.">
+  <meta property="og:image" content="assets/img/shredder.png">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M16 3 28 10v12L16 29 4 22V10z' fill='%2355d6f2'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="nav">
+    <a href="#top" class="brand"><span class="logo" aria-hidden="true"></span>Sotam</a>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#work">Work</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-text">
+        <p class="status"><span class="dot"></span>Available for commissions</p>
+        <h1>3D Designer<br><span class="muted">&amp; Roblox Developer</span></h1>
+        <p class="lead">I'm Sotam. I make low poly 3D assets and the systems that bring them to life in Roblox, from the model to the working mechanic in-game.</p>
+        <div class="cta">
+          <a href="#work" class="btn btn-primary">See my work</a>
+          <a href="#contact" class="btn">Get in touch</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <p class="eyebrow">01 / About</p>
+      <div class="about">
+        <h2>A little about me.</h2>
+        <div class="about-body">
+          <p>I'm a 3D designer and Roblox developer who loves the low poly style: clean shapes, bold colours and assets that read well at any distance and run smoothly on every device.</p>
+          <p>I've been working in Roblox for 7 months and I'm currently building two games of my own. That means I do the whole pipeline myself: modelling in Blender, building the map, and scripting the systems that make everything work.</p>
+          <ul class="stats">
+            <li><strong>7</strong><span>months in Roblox dev</span></li>
+            <li><strong>2</strong><span>games in progress</span></li>
+            <li><strong>50+</strong><span>3D assets made</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- WORK -->
+    <section id="work" class="section">
+      <p class="eyebrow">02 / Selected work</p>
+      <h2>Past work</h2>
+
+      <h3 class="sub">Systems &amp; gameplay</h3>
+      <div class="videos">
+        <article class="video-card wide">
+          <div class="video-wrap">
+            <video src="assets/video/placing-energy.mp4#t=0.5" controls muted playsinline preload="metadata"></video>
+          </div>
+          <div class="card-text">
+            <h4>Placing &amp; Energy System</h4>
+            <p>A build-mode placement system with grid snapping and live previews, connected to an energy system that powers the machines you place.</p>
+            <ul class="tags"><li>Luau</li><li>Client-server</li><li>Building</li></ul>
+          </div>
+        </article>
+
+        <article class="video-card">
+          <div class="video-wrap">
+            <video src="assets/video/gameplay.mp4#t=0.5" controls muted playsinline preload="metadata"></video>
+          </div>
+          <div class="card-text">
+            <h4>General Gameplay</h4>
+            <p>A look at one of my games in progress: machines, NPC dialogue, inventory and survival stats working together.</p>
+            <ul class="tags"><li>Game design</li><li>Systems</li></ul>
+          </div>
+        </article>
+
+        <article class="video-card">
+          <div class="video-wrap">
+            <video src="assets/video/mob.mp4#t=0.5" controls muted playsinline preload="metadata"></video>
+          </div>
+          <div class="card-text">
+            <h4>Rock Golem — Blender</h4>
+            <p>An enemy mob modelled and textured in Blender, ready to be brought into Roblox.</p>
+            <ul class="tags"><li>Blender</li><li>Character</li></ul>
+          </div>
+        </article>
+
+        <article class="video-card">
+          <div class="video-wrap">
+            <video src="assets/video/ui.mp4#t=0.5" controls muted playsinline preload="metadata"></video>
+          </div>
+          <div class="card-text">
+            <h4>UI Showcase</h4>
+            <p>In-game inventory interface with slots, hotbar and HUD.</p>
+            <ul class="tags"><li>UI</li></ul>
+          </div>
+        </article>
+
+        <article class="video-card">
+          <div class="video-wrap">
+            <img src="assets/img/crank.gif" alt="Low poly battery with a crank being turned" loading="lazy">
+          </div>
+          <div class="card-text">
+            <h4>Crank Interaction</h4>
+            <p>A hands-on interaction: the player turns a crank to charge the battery.</p>
+            <ul class="tags"><li>Interaction</li><li>Animation</li></ul>
+          </div>
+        </article>
+      </div>
+
+      <h3 class="sub">3D assets</h3>
+      <div class="gallery">
+        <button class="tile tall" data-full="assets/img/swords.png"><img src="assets/img/swords.png" alt="Set of themed low poly swords in nine colours" loading="lazy"><span>Themed Swords</span></button>
+        <button class="tile" data-full="assets/img/ice-monster.png"><img src="assets/img/ice-monster.png" alt="Ice monster creature covered in crystal spikes" loading="lazy"><span>Ice Monster</span></button>
+        <button class="tile" data-full="assets/img/solar-panel.png"><img src="assets/img/solar-panel.png" alt="Sci-fi solar panel" loading="lazy"><span>Solar Panel</span></button>
+        <button class="tile" data-full="assets/img/furnace.webp"><img src="assets/img/furnace.webp" alt="Sci-fi furnace smelting gold bars" loading="lazy"><span>Furnace</span></button>
+        <button class="tile" data-full="assets/img/printer.webp"><img src="assets/img/printer.webp" alt="Sci-fi 3D printer" loading="lazy"><span>3D Printer</span></button>
+        <button class="tile" data-full="assets/img/oxygen.webp"><img src="assets/img/oxygen.webp" alt="Oxygen controller machine" loading="lazy"><span>Oxygen Controller</span></button>
+        <button class="tile" data-full="assets/img/shredder.png"><img src="assets/img/shredder.png" alt="Sci-fi shredder machine" loading="lazy"><span>Shredder</span></button>
+        <button class="tile wide" data-full="assets/img/items.webp"><img src="assets/img/items.webp" alt="Grid of low poly item icons: materials, tools, crops and plants" loading="lazy"><span>Item Set — 50+ icons</span></button>
+        <button class="tile" data-full="assets/img/lobby-tent-2.webp"><img src="assets/img/lobby-tent-2.webp" alt="Wooden merchant wagon lit by lanterns" loading="lazy"><span>Lobby Wagon</span></button>
+        <button class="tile" data-full="assets/img/lobby-tent-1.webp"><img src="assets/img/lobby-tent-1.webp" alt="Market stall with a blue canopy and crystals" loading="lazy"><span>Lobby Stall</span></button>
+        <button class="tile small" data-full="assets/img/chest.webp"><img src="assets/img/chest.webp" alt="Sci-fi storage chest" loading="lazy"><span>Big Chest</span></button>
+        <button class="tile small" data-full="assets/img/jetpack.webp"><img src="assets/img/jetpack.webp" alt="Jetpack" loading="lazy"><span>Jetpack</span></button>
+        <button class="tile small" data-full="assets/img/pickaxe.webp"><img src="assets/img/pickaxe.webp" alt="Basic pickaxe" loading="lazy"><span>Pickaxe</span></button>
+        <button class="tile small" data-full="assets/img/planks.webp"><img src="assets/img/planks.webp" alt="Wood planks" loading="lazy"><span>Wood Planks</span></button>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="section">
+      <p class="eyebrow">03 / Services</p>
+      <h2>What I can build</h2>
+      <div class="services">
+        <article><span class="num">01</span><h4>Systems</h4><p>Placement, energy, crafting, inventory, progression and other gameplay systems in Luau.</p></article>
+        <article><span class="num">02</span><h4>3D Assets</h4><p>Low poly props, machines, weapons, items and creatures, modelled in Blender and ready for Roblox.</p></article>
+        <article><span class="num">03</span><h4>Map Design</h4><p>Lobbies, environments and levels with a consistent, readable style.</p></article>
+        <article><span class="num">04</span><h4>Bug Fixing</h4><p>Finding and fixing problems in existing scripts and games.</p></article>
+        <article class="secondary"><span class="num">05</span><h4>UI</h4><p>Menus, HUDs and inventories. Not my main focus, but I can do it.</p></article>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact">
+      <p class="eyebrow">04 / Contact</p>
+      <h2>Have something in mind?</h2>
+      <p class="lead">Need a system, a set of 3D assets or a map? Send me a message with what you need and we'll agree on a price.</p>
+      <div class="links">
+        <button class="link-row" id="discord" data-copy=".m4tos">
+          <span class="label">Discord</span>
+          <span class="value">.m4tos</span>
+          <span class="action" id="discord-action">Copy</span>
+        </button>
+        <a class="link-row" href="https://www.tiktok.com/@sotam3d" target="_blank" rel="noopener">
+          <span class="label">TikTok</span>
+          <span class="value">@sotam3d</span>
+          <span class="action">Open ↗</span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div><strong>Sotam</strong><span>3D Designer &amp; Roblox Developer</span></div>
+    <span>© <span id="year">2026</span> Sotam</span>
+  </footer>
+
+  <dialog id="lightbox" aria-label="Image preview">
+    <button class="close" aria-label="Close">×</button>
+    <img alt="">
+  </dialog>
+
+  <script src="script.js"></script>
+</body>
+</html>
